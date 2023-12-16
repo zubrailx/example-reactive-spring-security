@@ -1,0 +1,14 @@
+springdoc:
+  api-docs:
+    path: "/api-docs"
+  swagger-ui:
+    path: "/swagger-ui"
+
+server:
+  port: 8081
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
